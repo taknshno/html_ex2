@@ -24,37 +24,49 @@ body {
 }
 
 /* ここから */
-header {
+.header {
     height: 50px;
     background-color: #2B2B2B;
 }
 
-header ul {
+.header ul {
     margin: 0;
     padding: 0;
 }
 
-header ul a {
+.header ul a {
     color: #fff;
     text-decoration: none;
     display: block;
     padding: 15px;
 }
 
-header li {
+.header li {
     list-style: none;
+}
+
+div.left {
+    float: left;    
 }
 
 .left li{
     float: left;
+    width: auto;
 }
 
-.right li{
+div.right {
     float: right;
 }
 
-header ul:after {
+.right li{
+    float: left;
+    width: auto;
+}
 
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
 }
 /* ここまでがheader部分の実装 */
 
