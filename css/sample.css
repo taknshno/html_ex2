@@ -11,6 +11,7 @@ body {
     min-height: 100%;
     text-align: center;
     position: relative;
+    background-color: #D3D3D3;
   }
   
 .main-header {
@@ -89,6 +90,7 @@ div.right {
 /* About Achieve部分の実装 */
     padding: 20px;
     font-size: 0.8rem; 
+    background-color: #fff;
 }
 
 .about h1 {
